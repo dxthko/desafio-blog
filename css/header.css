@@ -1,0 +1,45 @@
+/* Cabeçalho */
+
+.cabecalho {
+  background: var(--gradient);
+  height: 13rem;
+  margin-bottom: 3rem;
+}
+
+.cabecalho__textos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 1.25rem 2.5rem 1.25rem;
+}
+
+.cabecalho__titulo {
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+/* Barra de pesquisa */
+
+.pesquisar {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 95vw;
+  height: 2.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.3rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding-left: 2.5rem;
+  background-image: url(/assets/search.svg);
+  background-repeat: no-repeat;
+  background-position: 0.7rem;
+}
+
+input::placeholder {
+  opacity: 0.5;
+  color: #f9f9f9;
+}
