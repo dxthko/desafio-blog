@@ -1,3 +1,5 @@
+/* Blog posts */
+
 .principal {
   display: flex;
   flex-direction: column;
@@ -23,6 +25,14 @@
   color: var(--gray);
 }
 
+.post__botao {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
 .post__conteudo {
   display: flex;
   flex-direction: column;
@@ -40,4 +50,14 @@
   font-size: 1rem;
   line-height: 1.7rem;
   padding: 0 0.75rem 0.9rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .principal {
+    padding: 0 10%;
+  }
+
+  .principal__posts {
+    width: 100%;
+  }
 }
