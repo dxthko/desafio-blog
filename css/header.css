@@ -3,6 +3,7 @@
 .cabecalho {
   background: var(--gradient);
   height: 13rem;
+  width: 100vw;
   margin-bottom: 3rem;
 }
 
@@ -28,10 +29,11 @@
 }
 
 input {
-  width: 95vw;
+  width: 24rem;
   height: 2.5rem;
   border: 1px solid transparent;
   border-radius: 0.3rem;
+  color: var(--white-two);
   background: rgba(255, 255, 255, 0.2);
   padding-left: 2.5rem;
   background-image: url(/assets/search.svg);
@@ -42,4 +44,29 @@ input {
 input::placeholder {
   opacity: 0.5;
   color: #f9f9f9;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 768px) {
+  .cabecalho__textos {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .cabecalho__titulo {
+    font-size: 1.4rem;
+  }
+
+  input {
+    width: 60vw;
+    height: 3rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  input {
+    width: 55vw;
+    height: 4rem;
+  }
 }
