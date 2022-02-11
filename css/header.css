@@ -5,6 +5,8 @@
   height: 13rem;
   width: 100vw;
   margin-bottom: 3rem;
+  position: sticky;
+  top: 0;
 }
 
 .cabecalho__textos {
