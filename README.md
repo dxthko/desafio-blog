@@ -4,7 +4,7 @@ Olá! Este é o repositório para o **Desafio 01** da Codelândia. A proposta do
 
 ## 📷
 
-![Foto do Blog](/assets/finalized.png 'Foto do Blog')
+![Foto do Blog](/assets/blog.png 'Foto do Blog')
 
 ## 🔗 Links úteis
 
